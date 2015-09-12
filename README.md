@@ -1,5 +1,5 @@
 # Reimagining Bitstream MIME Icons in DSpace
-We are preparing a to upgrade [CGSpace](https://cgspace.cgiar.org) to the next major version of DSpace, and one of the wishes was that we could replace the generic thumbnail placeholder icon with something more useful.
+We are preparing to upgrade [CGSpace](https://cgspace.cgiar.org) to the next major version of DSpace, and one of the wishes was that we could replace the generic thumbnail placeholder icon with something more useful.
 
 ## License
 
