@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<title>Improved DSpace Document Icons</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/writ.min.css">
+
+<header>
+  <h1>Reimagining Document Icons in CGSpace</h1>
+</header>
+
+<main>
+  <figure>
+    <img class="icon" alt="Generic document icon" src="images/dspace-mime.png">
+  </figure>
+  <p>With the next iteration of CGSpace we want to replace the generic "document" icon that is displayed when an item doesn't have a thumbnail — it's ugly and it doesn't give the user any indication of the type of content the item contains.</p>
+
+  <p>DSpace generates decent thumbnails for PDFs but for everything else it displays the bland document icon. Instead, when the item contains a bitstream such as a Word document, PowerPoint presentation, MP3, etc, we can give the user a cue using familiar icons for those formats.</p>
+
+  <h2 id="icons">New Icons</h2>
+  <p><a href="https://github.com/NitruxSA/breeze-icon-theme">Breeze</a> is clean, modern icon set from the <a href="https://www.kde.org/announcements/plasma5.0/">Plasma 5</a> desktop environment. Here's how the icons look for a few of the file formats common in CGSpace:</p>
+
+  <figure>
+    <img class="icon" alt="Blank icon" src="images/application-x-zerosize.png">
+    <figcaption>No bitstream</figcaption>
+  </figure>
+
+  <figure>
+    <img class="icon" alt="Document icon" src="images/x-office-document.png">
+    <figcaption>Word</figcaption>
+  </figure>
+
+  <figure>
+    <img class="icon" alt="Presentation icon" src="images/x-office-presentation.png">
+    <figcaption>Powerpoint</figcaption>
+  </figure>
+
+  <figure>
+    <img class="icon" alt="Spreadsheet icon" src="images/x-office-spreadsheet.png">
+    <figcaption>Excel</figcaption>
+  </figure>
+
+  <figure>
+    <img class="icon" alt="Audio icon" src="images/audio-mp3.png">
+    <figcaption>Audio</figcaption>
+  </figure>
+
+  <figure>
+    <img class="icon" alt="Text icon" src="images/text-plain.png">
+    <figcaption>Text</figcaption>
+  </figure>
+
+  <h2>License</h2>
+  <p>Breeze is licensed liberally (LGPLv3) which allows us to use it in our project free of charge.</p>
+
+</main>
+
+<!-- vim: set ts=2 sw=2: -->
