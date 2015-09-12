@@ -1,6 +1,11 @@
 # Reimagining Bitstream MIME Icons in DSpace
 We are preparing to upgrade [CGSpace](https://cgspace.cgiar.org) to the next major version of DSpace, and one of the wishes was that we could replace the generic thumbnail placeholder icon with something more useful.
 
+## SVG to PNG
+I converted the scalable graphics to PNGs using [`svgexport`](https://github.com/shakiba/svgexport):
+
+    $ svgexport x-office-presentation.svg x-office-presentation.png 4x
+
 ## License
 
 >Copyright (C) 2015 Alan Orth
