@@ -2,6 +2,10 @@ img.icon {
     max-width: 96px;
 }
 
+img.icon-svg {
+    width: 96px;
+}
+
 figure {
     text-align: center;
 }
